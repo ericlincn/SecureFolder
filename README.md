@@ -8,7 +8,6 @@
 - **Filename Obfuscation**: Optional hiding of original filenames for enhanced privacy
 - **Batch Processing**: Encrypt/decrypt entire folders at once
 - **Parallel Processing**: Multi-threading for faster bulk operations
-- **Progress Display**: Real-time progress bar and percentage
 - **Exclusion Filters**: Configurable file and directory exclusions
 - **Activity Logging**: Detailed operation logs for auditing
 
