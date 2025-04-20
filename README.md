@@ -28,12 +28,12 @@ pip install cryptography
 ### Basic Usage
 Encrypt a folder:
 ```bash
-python securefolder.py encrypt /path/to/folder --log
+python securefolder.py encrypt /path/to/folder
 ```
 
 Decrypt a folder:
 ```bash
-python securefolder.py decrypt /path/to/folder --log
+python securefolder.py decrypt /path/to/folder
 ```
 
 Encrypt a folder with filename and foldername obfuscation:
