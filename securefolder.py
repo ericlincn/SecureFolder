@@ -85,7 +85,7 @@ def decrypt_pathmap_content(encrypted_data: bytes, password: str) -> dict:
     plaintext = decryptor.update(ciphertext) + decryptor.finalize()
     
     return json.loads(plaintext.decode())
-# 修改create_pathmap函数
+
 def create_pathmap(folder_path: str, renamed_dirs: dict, password: str) -> str:
     """创建加密的路径映射文件"""
     pathmap_data = {
@@ -101,7 +101,6 @@ def create_pathmap(folder_path: str, renamed_dirs: dict, password: str) -> str:
     
     return pathmap_path
 
-# 修改read_pathmap函数
 def read_pathmap(folder_path: str, password: str) -> dict:
     """读取并解密路径映射文件"""
     pathmap_path = os.path.join(folder_path, PATHMAP_FILENAME)
